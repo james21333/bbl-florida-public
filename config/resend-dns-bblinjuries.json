@@ -1,0 +1,23 @@
+{
+  "zone_name": "bblinjuries.com",
+  "zone_id": "95acb954f23108412e121a3d13888dae",
+  "records": [
+    {
+      "type": "TXT",
+      "name": "resend._domainkey",
+      "content": "p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDZg4Vs+TygPE7Rr6NXnz7Wn++4JHlKsiKwXqR1PiC25wrXFp7K25v/OeVtplXAHe1qJe0Opsy4jd7KPdo9q9aQgrdCH8FgTGfX4v+9GORNrT1BuVGXJMTN8T23pApMpLA6j0puHUWg1LZ20WLxTEvdDGadXAPkEhoUa6q6jYXxFQIDAQAB"
+    },
+    {
+      "type": "CNAME",
+      "name": "rsend",
+      "content": "rsend.forge.rmta.net",
+      "proxied": false
+    },
+    {
+      "type": "CNAME",
+      "name": "send",
+      "content": "send.forge.rmta.net",
+      "proxied": false
+    }
+  ]
+}
