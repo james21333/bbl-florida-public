@@ -99,7 +99,7 @@
       <section class="fjlg-panel" id="fjlg">
         <h2>${esc(data.fjlgWatch.title)}</h2>
         <p class="subtitle">${esc(data.fjlgWatch.subtitle)}</p>
-        <p><strong>${esc(data.fjlgWatch.firm)}</strong> — <a href="${esc(data.fjlgWatch.firmUrl)}" target="_blank" rel="noopener">${esc(L.firmSite)}</a></p>
+        <p><strong>${esc(data.fjlgWatch.firm)}</strong></p>
         <p>${esc(L.attorneys)}: ${esc(data.fjlgWatch.attorneys.join(" · "))}</p>
         ${fjlgBlock}
       </section>
@@ -158,7 +158,6 @@
 
   const enLabels = {
     lastUpdated: "Last updated",
-    firmSite: "Firm website",
     attorneys: "Attorneys monitored",
     miamiBadge: "Miami area",
     featuredBadge: "Lead case",
@@ -177,7 +176,6 @@
 
   const esLabels = {
     lastUpdated: "Última actualización",
-    firmSite: "Sitio del bufete",
     attorneys: "Abogadas monitoreadas",
     miamiBadge: "Área Miami",
     featuredBadge: "Caso principal",
