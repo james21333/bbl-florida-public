@@ -32,15 +32,6 @@
   <footer class="site-footer">
     Proyecto independiente de información pública. Verifique números de caso con las secretarías oficiales. No afiliado a ningún bufete salvo que el expediente lo indique.
   </footer>
-  <script>
-    fetch("/data/content.json").then(r => r.json()).then(d => {
-      const el = document.getElementById("bar-notice");
-      el.innerHTML = `
-        <p class="lead">${d.barNotice.lead}</p>
-        <p>${d.barNotice.body}</p>
-        <p class="footnote">${d.barNotice.footnote}</p>`;
-    });
-  </script>
-  <script src="/app.js" defer></script>
+  <script src="/app.js?v=20250926b" defer></script>
 </body>
 </html>

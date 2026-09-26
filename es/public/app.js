@@ -1,18 +1,47 @@
 (function () {
   const root = document.getElementById("app");
+  const barEl = document.getElementById("bar-notice");
   if (!root) return;
 
-  fetch("/data/content.json")
-    .then((r) => {
-      if (!r.ok) throw new Error("content load failed");
-      return r.json();
+  loadContent()
+    .then((data) => {
+      try {
+        renderBarNotice(data, barEl);
+        render(data);
+      } catch (err) {
+        console.error(err);
+        root.innerHTML =
+          "<p>We loaded the data file but could not render the page. Please hard-refresh (Ctrl+Shift+R or Cmd+Shift+R).</p>";
+      }
     })
-    .then(render)
     .catch((err) => {
-      root.innerHTML =
-        "<p>Unable to load site content. Please refresh.</p>";
       console.error(err);
+      root.innerHTML =
+        "<p>Unable to load site content. If you opened this page from a file on your computer, use a local web server or visit the live site. Otherwise try a hard refresh.</p>";
+      if (barEl) {
+        barEl.innerHTML =
+          "<p class=\"lead\">* Public information notice will appear when content loads.</p>";
+      }
     });
+
+  function loadContent() {
+    return fetch("./data/content.json", { cache: "no-store" }).then((r) => {
+      if (!r.ok) throw new Error("content HTTP " + r.status);
+      return r.json();
+    });
+  }
+
+  function renderBarNotice(data, el) {
+    if (!el || !data.barNotice) return;
+    el.innerHTML =
+      "<p class=\"lead\">" +
+      esc(data.barNotice.lead) +
+      "</p><p>" +
+      esc(data.barNotice.body) +
+      "</p><p class=\"footnote\">" +
+      esc(data.barNotice.footnote) +
+      "</p>";
+  }
 
   function esc(s) {
     if (s == null) return "";
@@ -74,52 +103,62 @@
   }
 
   function watchCases(data) {
-    const extra = data.miamiWatch && data.miamiWatch.cases;
+    const mw = data.miamiWatch || {};
+    const extra = mw.cases;
     if (extra && extra.length) return extra;
-    return data.cases.filter((c) => c.featured && c.priority === "miami");
+    return (data.cases || []).filter((c) => c.featured && c.priority === "miami");
   }
 
   function render(data) {
-    const L = data.meta.lang === "es" ? esLabels : enLabels;
-    document.documentElement.lang = data.meta.lang;
+    const L = data.meta && data.meta.lang === "es" ? esLabels : enLabels;
+    if (data.meta && data.meta.lang) {
+      document.documentElement.lang = data.meta.lang;
+    }
+
+    const sections = data.sections || {};
+    const miamiWatch = data.miamiWatch || { title: "", subtitle: "" };
+    const cases = data.cases || [];
+    const newsBlurbs = data.newsBlurbs || [];
+    const stats = data.stats || [];
+    const sourcing = data.sourcing || [];
 
     const featured = watchCases(data);
     const featuredIds = new Set(featured.map((c) => c.id));
 
-    const miamiCases = data.cases.filter(
+    const miamiCases = cases.filter(
       (c) => c.priority === "miami" && !featuredIds.has(c.id)
     );
-    const otherCases = data.cases.filter((c) => c.priority !== "miami");
+    const otherCases = cases.filter((c) => c.priority !== "miami");
 
     const watchHtml = featured.map((c) => renderCase(c, L)).join("");
 
     root.innerHTML = `
       <section class="hero" id="top">
-        <h1>${esc(data.meta.siteName)}</h1>
-        <p>${esc(data.meta.tagline)}</p>
-        <p class="updated">${esc(L.lastUpdated)} ${esc(data.meta.updated)}</p>
+        <h1>${esc(data.meta && data.meta.siteName)}</h1>
+        <p>${esc(data.meta && data.meta.tagline)}</p>
+        <p class="updated">${esc(L.lastUpdated)} ${esc(data.meta && data.meta.updated)}</p>
       </section>
 
       <section class="miami-watch-panel" id="miami-watch">
-        <h2>${esc(data.miamiWatch.title)}</h2>
-        <p class="subtitle">${esc(data.miamiWatch.subtitle)}</p>
-        <div class="case-grid">${watchHtml}</div>
+        <h2>${esc(miamiWatch.title)}</h2>
+        <p class="subtitle">${esc(miamiWatch.subtitle)}</p>
+        <div class="case-grid">${watchHtml || `<p>${esc(L.noFeaturedMiami)}</p>`}</div>
       </section>
 
       <section class="section" id="miami">
-        <h2>${esc(data.sections.miamiDockets)}</h2>
+        <h2>${esc(sections.miamiDockets)}</h2>
         <div class="case-grid">${miamiCases.map((c) => renderCase(c, L)).join("")}</div>
       </section>
 
       <section class="section" id="statewide">
-        <h2>${esc(data.sections.statewide)}</h2>
+        <h2>${esc(sections.statewide)}</h2>
         <div class="case-grid">${otherCases.map((c) => renderCase(c, L)).join("")}</div>
       </section>
 
       <section class="section" id="news">
-        <h2>${esc(data.sections.news)}</h2>
+        <h2>${esc(sections.news)}</h2>
         <ul class="news-list">
-          ${data.newsBlurbs
+          ${newsBlurbs
             .map(
               (n) => `
             <li>
@@ -133,9 +172,9 @@
       </section>
 
       <section class="section" id="stats">
-        <h2>${esc(data.sections.stats)}</h2>
+        <h2>${esc(sections.stats)}</h2>
         <div class="stats-grid">
-          ${data.stats
+          ${stats
             .map(
               (s) => `
             <div class="stat-card">
@@ -153,8 +192,8 @@
       </section>
 
       <section class="section sourcing" id="sources">
-        <h2>${esc(data.sections.howWeSource)}</h2>
-        <ul>${data.sourcing.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>
+        <h2>${esc(sections.howWeSource)}</h2>
+        <ul>${sourcing.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>
       </section>`;
 
     const navWatch = document.querySelector('nav a[href="#miami-watch"]');

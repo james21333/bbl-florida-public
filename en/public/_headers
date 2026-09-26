@@ -2,3 +2,13 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: interest-cohort=()
+
+/index.html
+  Cache-Control: no-cache
+
+/app.js
+  Cache-Control: public, max-age=300
+
+/data/*
+  Content-Type: application/json; charset=utf-8
+  Cache-Control: public, max-age=60
