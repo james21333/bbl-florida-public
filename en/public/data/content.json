@@ -1,0 +1,238 @@
+{
+  "meta": {
+    "lang": "en",
+    "siteName": "BBL Injuries Florida",
+    "tagline": "Public dockets, news, and safety data on Brazilian butt lift and medspa liposuction cases in Florida — Miami first.",
+    "updated": "2025-09-26"
+  },
+  "barNotice": {
+    "lead": "* Florida Bar witness-notice exception (Handbook on Lawyer Advertising and Solicitation, “Witnesses” / Standing Committee on Advertising — Solicitation of Witnesses):",
+    "body": "Florida’s lawyer advertising rules do not apply to notices to find witnesses if the lawyer has an existing client and the lawyer does not accept prospective clients as a result of placing the notice seeking witnesses.",
+    "footnote": "NOTE: Although the lawyer advertising rules do not apply to some communications, the rule prohibiting conduct involving dishonesty, fraud, deceit, or misrepresentation applies to all communications of a lawyer. Rule 4-8.4(c). This site publishes public-court and public-health information only; it is not a law firm and does not offer legal advice or client intake."
+  },
+  "fjlgWatch": {
+    "title": "Miami priority — Florida Justice Law Group docket watch",
+    "subtitle": "BBL · liposuction · medspa · cosmetic surgery (public filings only)",
+    "firm": "Florida Justice Law Group, PLLC",
+    "firmUrl": "https://floridajusticelawgroup.com/",
+    "attorneys": ["Lavenia D. Santos (also known as Lavenia Dianne Mason)", "Anna Yarovich Lenchus"],
+    "intro": "When a Miami-area BBL, liposuction, or medspa malpractice complaint lists Florida Justice Law Group or these attorneys on the public docket, it appears here first. Initial open-source review (September 2025) did not yet surface an indexed Miami-Dade BBL complaint naming the firm; this block updates as clerk and federal indexes publish new entries.",
+    "cases": []
+  },
+  "sections": {
+    "miamiDockets": "Miami-Dade & South Florida — public dockets",
+    "statewide": "Elsewhere in Florida",
+    "news": "News & explainers",
+    "stats": "Statistics & policy",
+    "howWeSource": "How we source information"
+  },
+  "cases": [
+    {
+      "id": "russell-seduction-2024",
+      "priority": "miami",
+      "featured": true,
+      "title": "Erica Russell wrongful-death BBL — Seduction Cosmetic Center",
+      "court": "Miami-Dade County Circuit Court (Florida state court)",
+      "filed": "2024-03-04",
+      "status": "Pending (per news reports, March 2024 filing)",
+      "procedure": "Brazilian butt lift (BBL) / gluteal fat grafting",
+      "incidentDate": "2021-06-16",
+      "location": "Seduction Cosmetic Center, Coral Gables, FL",
+      "plaintiffs": "Estate of Erica Russell; children (via representatives)",
+      "defendants": ["Dr. John Sampson", "Seduction Cosmetic Center (Gretel Jardon, president)"],
+      "counselPlaintiff": "Stewart Tilghman Fox Bianchi & Cain (Michael Levine, Stephen Cain)",
+      "counselDefendant": "Not listed in public news summaries",
+      "summary": "A Tennessee mother of five traveled to Miami for a BBL. The civil complaint alleges Dr. Sampson was patient No. 7 that day after a 14+ hour stretch, was not authorized to perform surgery at the center despite paperwork shown to the patient, punctured multiple organs with a cannula, injected fat into deep gluteal planes, and that Russell died of pulmonary fat emboli.",
+      "documents": [
+        {
+          "label": "Miami Herald — lawsuit summary & DOH overlap",
+          "url": "https://www.miamiherald.com/news/health-care/article286266860.html",
+          "type": "news"
+        },
+        {
+          "label": "NBC News — complaint allegations",
+          "url": "https://www.nbcnews.com/news/us-news/woman-dies-brazilian-butt-lift-procedure-performed-miami-doctor-was-no-rcna142261",
+          "type": "news"
+        },
+        {
+          "label": "Miami-Dade Clerk — case search portal",
+          "url": "https://www2.miamidadeclerk.gov/ocs/",
+          "type": "docket"
+        }
+      ]
+    },
+    {
+      "id": "carpenter-spectrum-2024",
+      "priority": "miami",
+      "title": "Tracy Carpenter — infection after BBL at Spectrum Aesthetics",
+      "court": "Miami-Dade County Circuit Court",
+      "filed": "2024-02-02",
+      "status": "Pending (UniCourt index, 2024)",
+      "procedure": "Brazilian butt lift (BBL)",
+      "incidentDate": "2021-07-19",
+      "location": "Spectrum Aesthetics, Miami, FL",
+      "plaintiffs": "Tracy Carpenter",
+      "defendants": ["Spectrum Image, Inc. d/b/a Spectrum Aesthetics", "Richard T. Vagley, M.D."],
+      "counselPlaintiff": "Not indexed in public aggregator snippet",
+      "summary": "Medical-malpractice complaint alleges improper sterilization and non-sterile technique during a Miami BBL caused a severe mycobacterial infection.",
+      "documents": [
+        {
+          "label": "UniCourt — docket index & complaint excerpts",
+          "url": "https://unicourt.com/case/fl-mda3-casedkc813f1498801-1281446",
+          "type": "docket"
+        }
+      ]
+    },
+    {
+      "id": "blancas-newlife-2025",
+      "priority": "miami",
+      "title": "Mariella Blancas — malpractice at New Life Plastic Surgery",
+      "court": "Miami-Dade County Court",
+      "filed": "2025-06-04",
+      "status": "Open (UniCourt index)",
+      "procedure": "Cosmetic / plastic surgery (medical malpractice act)",
+      "location": "New Life Plastic Surgery, Miami-Dade, FL",
+      "plaintiffs": "Mariella Blancas",
+      "defendants": ["New Life Plastic Surgery, Corp.", "Julio Clavijo-Alvarez, M.D."],
+      "summary": "Filed under Florida’s Medical Malpractice Act (Chapter 766). Public index lists presuit compliance and venue in Miami-Dade.",
+      "documents": [
+        {
+          "label": "UniCourt — docket index",
+          "url": "https://unicourt.com/case/fl-mda3-casedk726496f9474e-1684450",
+          "type": "docket"
+        }
+      ]
+    },
+    {
+      "id": "green-newlife-settlement-2025",
+      "priority": "miami",
+      "title": "Melecia Green — death after tummy tuck & liposuction (New Life)",
+      "court": "Miami-Dade County Circuit Court",
+      "filed": "2023 (per Herald reporting)",
+      "status": "Settled — $325,000 reported (Feb. 2025)",
+      "procedure": "Abdominoplasty and liposuction (not BBL; same clinic ecosystem)",
+      "incidentDate": "2022-12",
+      "location": "New Life Plastic Surgery, West Miami-Dade, FL",
+      "plaintiffs": "Andrew Green (surviving spouse) on behalf of estate and minor child",
+      "defendants": ["New Life Plastic Surgery", "Dr. Naveed Nosrati"],
+      "counselPlaintiff": "Chris Russomanno, Russomanno & Borrello",
+      "summary": "Patient collapsed from pulmonary embolism less than 40 hours after surgery. Herald reported a structured settlement after wrongful-death litigation tied to high-volume Miami cosmetic centers.",
+      "documents": [
+        {
+          "label": "Miami Herald — settlement reporting",
+          "url": "https://www.miamiherald.com/news/health-care/article287263195.html",
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "id": "semel-kiva-2024",
+      "priority": "statewide",
+      "title": "Liliane Semel v. Kiva Medspa LLC",
+      "court": "Orange County Circuit Court",
+      "filed": "2024-04-11",
+      "status": "Disposed (UniCourt index)",
+      "procedure": "Medspa — medical malpractice (details limited in public index)",
+      "location": "Orange County, FL",
+      "plaintiffs": "Liliane Semel",
+      "defendants": ["Kiva Medspa LLC"],
+      "counselPlaintiff": "Zachary Leacox",
+      "summary": "Illustrates medspa malpractice filings outside South Florida. Full complaint text may require clerk purchase; index confirms case initiation April 2024.",
+      "documents": [
+        {
+          "label": "UniCourt — docket index",
+          "url": "https://unicourt.com/case/fl-ora-casedq8064787d211a-1848064",
+          "type": "docket"
+        }
+      ]
+    },
+    {
+      "id": "fjlg-quinn-ethicon-federal",
+      "priority": "statewide",
+      "fjlgRelated": true,
+      "title": "Joanne Quinn v. Ethicon / Johnson & Johnson (federal — FJLG counsel)",
+      "court": "U.S. District Court, Middle District of Florida",
+      "filed": "2016-09-22",
+      "status": "Terminated 2017 (product liability MDL tag-along)",
+      "procedure": "Pelvic mesh / health-care product liability (not BBL)",
+      "plaintiffs": "Joanne Quinn",
+      "defendants": ["Ethicon, Inc.", "Johnson & Johnson"],
+      "counselPlaintiff": "Anna Yarovich Lenchus — Florida Justice Law Group",
+      "summary": "Included because public PACER-style indexes list Florida Justice Law Group on a Florida federal injury matter. Not a BBL case; shown for counsel identification only.",
+      "documents": [
+        {
+          "label": "PacerMonitor — docket summary",
+          "url": "https://www.pacermonitor.com/public/case/19324400/Quinn_v_Ethicon,_Inc_et_al",
+          "type": "docket"
+        }
+      ]
+    }
+  ],
+  "newsBlurbs": [
+    {
+      "headline": "Illegal BBL in Coral Gables killed a mother of five — lawsuit filed",
+      "source": "Miami Herald",
+      "date": "2024-03-05",
+      "teaser": "David Neal walks through the Russell complaint: seventh surgery of the day, organ punctures, deep gluteal fat injection, and DOH discipline overlap.",
+      "url": "https://www.miamiherald.com/news/health-care/article286266860.html"
+    },
+    {
+      "headline": "Family sues after BBL death at Miami-area clinic",
+      "source": "NBC 6 South Florida",
+      "date": "2024-03-18",
+      "teaser": "Investigation-style piece on travel-for-surgery risk and Seduction’s designated-physician paperwork.",
+      "url": "https://www.nbcmiami.com/investigations/family-of-woman-who-died-after-a-popular-plastic-surgery-sues-doctor-and-clinic/3261936/"
+    },
+    {
+      "headline": "South Florida’s BBL mortality outlier — peer-reviewed study",
+      "source": "Aesthetic Surgery Journal / PMC",
+      "date": "2022 (data through Apr. 2022)",
+      "teaser": "Researchers counted 25 pulmonary-fat-embolism BBL deaths in South Florida (2010–2022); 92% at high-volume budget clinics; 2021 had six deaths.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9896146/"
+    },
+    {
+      "headline": "Florida Senate analysis citing South Florida BBL deaths",
+      "source": "Florida Senate — CS/HB 1561 staff analysis",
+      "date": "2024",
+      "teaser": "Legislative staff repeat the 25-death South Florida statistic and tie deaths to clinic volume models and pulmonary fat embolism.",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1561/Analyses/h1561z1.HRS.PDF"
+    },
+    {
+      "headline": "Miami plastic surgeon accused in fatal BBL — patient advocacy angle",
+      "source": "Flanagan & Bodenheimer blog (news commentary)",
+      "date": "2023",
+      "teaser": "Discusses DOH emergency action against a Doral-area surgeon for intramuscular fat injection — useful for understanding Florida’s subcutaneous-only rule.",
+      "url": "https://www.florida-justice.com/blog/miami-plastic-surgeon-accused-of-malpractice-in-wrongful-death-claim/"
+    }
+  ],
+  "stats": [
+    {
+      "label": "South Florida BBL deaths (PFE, 2010–Apr. 2022)",
+      "value": "25",
+      "source": "Pazmiño et al., Aesthetic Surgery Journal (PMC9896146)"
+    },
+    {
+      "label": "Share at high-volume budget clinics (same study)",
+      "value": "92%",
+      "source": "PMC9896146"
+    },
+    {
+      "label": "Worst single year in study period",
+      "value": "6 deaths (2021)",
+      "source": "PMC9896146"
+    },
+    {
+      "label": "Florida 2024 office-surgery reforms",
+      "value": "HB 1561 / enhanced DOH oversight",
+      "source": "Florida Senate bill analyses",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1561"
+    }
+  ],
+  "sourcing": [
+    "Florida state trial courts publish filings through county clerks (Miami-Dade OCS, Orange County, etc.).",
+    "Federal courts: PACER / CourtListener RECAP for U.S. District and Bankruptcy filings.",
+    "Florida Board of Medicine emergency orders and Florida Administrative Code 64B8-9.009 (gluteal fat grafting standards).",
+    "News articles link to primary reporting; they are not substitutes for reading the complaint.",
+    "Third-party docket aggregators (UniCourt, PacerMonitor) summarize public indices; verify case numbers with the official clerk before citing in court."
+  ]
+}

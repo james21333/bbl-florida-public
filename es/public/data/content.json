@@ -1,0 +1,236 @@
+{
+  "meta": {
+    "lang": "es",
+    "siteName": "Lesiones BBL Florida",
+    "tagline": "Expedientes públicos, noticias y datos de seguridad sobre cirugías BBL y liposucción en medspas de Florida — Miami primero.",
+    "updated": "2025-09-26"
+  },
+  "barNotice": {
+    "lead": "* Excepción del Colegio de Abogados de Florida para avisos de testigos (Manual de Publicidad y Solicitud de Abogados, «Witnesses» / Comité Permanente de Publicidad — Solicitation of Witnesses):",
+    "body": "Las reglas de publicidad de abogados de Florida no se aplican a avisos para buscar testigos si el abogado ya representa a un cliente y no acepta clientes potenciales como resultado de publicar el aviso.",
+    "footnote": "NOTA: Aunque las reglas de publicidad no aplican a algunas comunicaciones, la regla que prohíbe deshonestidad, fraude, engaño o tergiversación aplica a toda comunicación de un abogado. Regla 4-8.4(c). Este sitio publica información de tribunales y salud pública; no es un bufete ni ofrece asesoría legal ni captación de clientes."
+  },
+  "fjlgWatch": {
+    "title": "Prioridad Miami — seguimiento de Florida Justice Law Group",
+    "subtitle": "BBL · liposucción · medspa · cirugía estética (solo expedientes públicos)",
+    "firm": "Florida Justice Law Group, PLLC",
+    "firmUrl": "https://floridajusticelawgroup.com/",
+    "attorneys": ["Lavenia D. Santos (también conocida como Lavenia Dianne Mason)", "Anna Yarovich Lenchus"],
+    "intro": "Cuando una demanda pública de mala praxis por BBL, liposucción o medspa en el área de Miami cite a Florida Justice Law Group o a estas abogadas, aparecerá aquí primero. Una revisión inicial de fuentes abiertas (septiembre de 2025) no encontró aún una demanda indexada en Miami-Dade por BBL con el bufete; este bloque se actualiza conforme publiquen los registros del secretario y los índices federales.",
+    "cases": []
+  },
+  "sections": {
+    "miamiDockets": "Miami-Dade y el Sur de Florida — expedientes públicos",
+    "statewide": "Resto de Florida",
+    "news": "Noticias y contexto",
+    "stats": "Estadísticas y política pública",
+    "howWeSource": "Cómo obtenemos la información"
+  },
+  "cases": [
+    {
+      "id": "russell-seduction-2024",
+      "priority": "miami",
+      "featured": true,
+      "title": "Muerte de Erica Russell tras BBL — Seduction Cosmetic Center",
+      "court": "Tribunal de Circuito del condado Miami-Dade (Florida)",
+      "filed": "2024-03-04",
+      "status": "Pendiente (según prensa, marzo 2024)",
+      "procedure": "Levantamiento de glúteos brasileño (BBL)",
+      "incidentDate": "2021-06-16",
+      "location": "Seduction Cosmetic Center, Coral Gables, FL",
+      "plaintiffs": "Sucesión de Erica Russell; hijos (por representantes)",
+      "defendants": ["Dr. John Sampson", "Seduction Cosmetic Center (presidenta Gretel Jardon)"],
+      "counselPlaintiff": "Stewart Tilghman Fox Bianchi & Cain (Michael Levine, Stephen Cain)",
+      "counselDefendant": "No indicado en resúmenes públicos",
+      "summary": "Madre de cinco hijos viajó desde Tennessee a Miami. La demanda civil alega que el Dr. Sampson fue la paciente núm. 7 ese día tras más de 14 horas de cirugías, no estaba autorizado a operar en el centro, perforó órganos con una cánula, inyectó grasa en planos glúteos profundos y que Russell murió por embolia grasa pulmonar.",
+      "documents": [
+        {
+          "label": "Miami Herald — resumen de la demanda",
+          "url": "https://www.miamiherald.com/news/health-care/article286266860.html",
+          "type": "news"
+        },
+        {
+          "label": "NBC News — alegaciones",
+          "url": "https://www.nbcnews.com/news/us-news/woman-dies-brazilian-butt-lift-procedure-performed-miami-doctor-was-no-rcna142261",
+          "type": "news"
+        },
+        {
+          "label": "Secretaría Miami-Dade — búsqueda de casos",
+          "url": "https://www2.miamidadeclerk.gov/ocs/",
+          "type": "docket"
+        }
+      ]
+    },
+    {
+      "id": "carpenter-spectrum-2024",
+      "priority": "miami",
+      "title": "Tracy Carpenter — infección tras BBL en Spectrum Aesthetics",
+      "court": "Tribunal de Circuito, Miami-Dade",
+      "filed": "2024-02-02",
+      "status": "Pendiente (índice UniCourt, 2024)",
+      "procedure": "BBL",
+      "incidentDate": "2021-07-19",
+      "location": "Spectrum Aesthetics, Miami, FL",
+      "plaintiffs": "Tracy Carpenter",
+      "defendants": ["Spectrum Image, Inc. d/b/a Spectrum Aesthetics", "Richard T. Vagley, M.D."],
+      "summary": "Demanda por mala praxis médica que alega esterilización deficiente durante un BBL en Miami y una infección micobacteriana grave.",
+      "documents": [
+        {
+          "label": "UniCourt — índice del expediente",
+          "url": "https://unicourt.com/case/fl-mda3-casedkc813f1498801-1281446",
+          "type": "docket"
+        }
+      ]
+    },
+    {
+      "id": "blancas-newlife-2025",
+      "priority": "miami",
+      "title": "Mariella Blancas — mala praxis en New Life Plastic Surgery",
+      "court": "Tribunal del condado Miami-Dade",
+      "filed": "2025-06-04",
+      "status": "Abierto (índice UniCourt)",
+      "procedure": "Cirugía plástica / estética (Ley de mala praxis médica)",
+      "location": "New Life Plastic Surgery, Miami-Dade, FL",
+      "plaintiffs": "Mariella Blancas",
+      "defendants": ["New Life Plastic Surgery, Corp.", "Julio Clavijo-Alvarez, M.D."],
+      "summary": "Demanda bajo la Ley de Mala Praxis Médica de Florida (Capítulo 766). El índice público indica cumplimiento previo al juicio y competencia en Miami-Dade.",
+      "documents": [
+        {
+          "label": "UniCourt — índice",
+          "url": "https://unicourt.com/case/fl-mda3-casedk726496f9474e-1684450",
+          "type": "docket"
+        }
+      ]
+    },
+    {
+      "id": "green-newlife-settlement-2025",
+      "priority": "miami",
+      "title": "Melecia Green — muerte tras abdominoplastia y liposucción (New Life)",
+      "court": "Tribunal de Circuito, Miami-Dade",
+      "status": "Acuerdo — USD 325.000 reportados (feb. 2025)",
+      "procedure": "Abdominoplastia y liposucción (mismo ecosistema de clínicas)",
+      "incidentDate": "2022-12",
+      "location": "New Life Plastic Surgery, oeste de Miami-Dade, FL",
+      "plaintiffs": "Andrew Green (cónyuge supérstite)",
+      "defendants": ["New Life Plastic Surgery", "Dr. Naveed Nosrati"],
+      "counselPlaintiff": "Chris Russomanno, Russomanno & Borrello",
+      "summary": "La paciente colapsó por embolia pulmonar menos de 40 horas después de la cirugía. El Herald reportó un acuerdo tras litigio por muerte wrongful.",
+      "documents": [
+        {
+          "label": "Miami Herald — acuerdo",
+          "url": "https://www.miamiherald.com/news/health-care/article287263195.html",
+          "type": "news"
+        }
+      ]
+    },
+    {
+      "id": "semel-kiva-2024",
+      "priority": "statewide",
+      "title": "Liliane Semel contra Kiva Medspa LLC",
+      "court": "Tribunal de Circuito, condado Orange",
+      "filed": "2024-04-11",
+      "status": "Cerrado (índice UniCourt)",
+      "procedure": "Medspa — mala praxis médica",
+      "location": "Condado Orange, FL",
+      "plaintiffs": "Liliane Semel",
+      "defendants": ["Kiva Medspa LLC"],
+      "counselPlaintiff": "Zachary Leacox",
+      "summary": "Ejemplo de demandas contra medspas fuera del sur de Florida.",
+      "documents": [
+        {
+          "label": "UniCourt — índice",
+          "url": "https://unicourt.com/case/fl-ora-casedq8064787d211a-1848064",
+          "type": "docket"
+        }
+      ]
+    },
+    {
+      "id": "fjlg-quinn-ethicon-federal",
+      "priority": "statewide",
+      "fjlgRelated": true,
+      "title": "Joanne Quinn contra Ethicon / J&J (federal — abogada FJLG)",
+      "court": "Tribunal de Distrito de EE.UU., distrito medio de Florida",
+      "filed": "2016-09-22",
+      "status": "Terminado 2017",
+      "procedure": "Responsabilidad por producto (malla pélvica; no es BBL)",
+      "plaintiffs": "Joanne Quinn",
+      "defendants": ["Ethicon, Inc.", "Johnson & Johnson"],
+      "counselPlaintiff": "Anna Yarovich Lenchus — Florida Justice Law Group",
+      "summary": "Se incluye porque índices públicos listan a Florida Justice Law Group en un asunto federal de lesiones en Florida. No es un caso BBL; sirve para identificar a la counsel.",
+      "documents": [
+        {
+          "label": "PacerMonitor — resumen",
+          "url": "https://www.pacermonitor.com/public/case/19324400/Quinn_v_Ethicon,_Inc_et_al",
+          "type": "docket"
+        }
+      ]
+    }
+  ],
+  "newsBlurbs": [
+    {
+      "headline": "BBL «ilegal» en Coral Gables mató a madre de cinco hijos",
+      "source": "Miami Herald",
+      "date": "2024-03-05",
+      "teaser": "Resumen de la demanda Russell: séptima cirugía del día, perforaciones y embolia grasa.",
+      "url": "https://www.miamiherald.com/news/health-care/article286266860.html"
+    },
+    {
+      "headline": "Familia demanda tras muerte por BBL en clínica del área de Miami",
+      "source": "NBC 6 South Florida",
+      "date": "2024-03-18",
+      "teaser": "Reportaje sobre riesgos de viajar por cirugía y papeles del «médico designado».",
+      "url": "https://www.nbcmiami.com/investigations/family-of-woman-who-died-after-a-popular-plastic-surgery-sues-doctor-and-clinic/3261936/"
+    },
+    {
+      "headline": "Mortalidad por BBL en el sur de Florida — estudio revisado por pares",
+      "source": "Aesthetic Surgery Journal / PMC",
+      "date": "2022 (datos hasta abr. 2022)",
+      "teaser": "25 muertes por embolia grasa pulmonar (2010–2022); 92 % en clínicas de alto volumen.",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9896146/"
+    },
+    {
+      "headline": "Análisis del Senado de Florida citando muertes por BBL",
+      "source": "Senado de Florida — CS/HB 1561",
+      "date": "2024",
+      "teaser": "Personal legislativo repite la cifra de 25 muertes y vincula clínicas de alto volumen.",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1561/Analyses/h1561z1.HRS.PDF"
+    },
+    {
+      "headline": "Cirujano de Miami y BBL fatal — contexto regulatorio",
+      "source": "Comentario jurídico (Flanagan & Bodenheimer)",
+      "date": "2023",
+      "teaser": "Acción de emergencia del DOH por inyección intramuscular de grasa.",
+      "url": "https://www.florida-justice.com/blog/miami-plastic-surgeon-accused-of-malpractice-in-wrongful-death-claim/"
+    }
+  ],
+  "stats": [
+    {
+      "label": "Muertes por BBL (embolia grasa, sur de FL, 2010–abr. 2022)",
+      "value": "25",
+      "source": "Pazmiño et al., PMC9896146"
+    },
+    {
+      "label": "En clínicas de alto volumen / bajo costo",
+      "value": "92 %",
+      "source": "PMC9896146"
+    },
+    {
+      "label": "Peor año del estudio",
+      "value": "6 muertes (2021)",
+      "source": "PMC9896146"
+    },
+    {
+      "label": "Reformas Florida 2024 (cirugía en consultorio)",
+      "value": "HB 1561 / más fiscalización DOH",
+      "source": "Senado de Florida",
+      "url": "https://www.flsenate.gov/Session/Bill/2024/1561"
+    }
+  ],
+  "sourcing": [
+    "Tribunales estatales: secretarías del condado (Miami-Dade OCS, Orange, etc.).",
+    "Tribunales federales: PACER / CourtListener RECAP.",
+    "Junta de Medicina de Florida y Código Administrativo 64B8-9.009.",
+    "Artículos de prensa enlazan reportajes primarios; no sustituyen la lectura de la demanda.",
+    "Agregadores (UniCourt, PacerMonitor) resumen índices públicos; verifique números de caso con la secretaría oficial."
+  ]
+}
