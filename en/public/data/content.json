@@ -10,13 +10,12 @@
     "body": "Florida’s lawyer advertising rules do not apply to notices to find witnesses if the lawyer has an existing client and the lawyer does not accept prospective clients as a result of placing the notice seeking witnesses.",
     "footnote": "NOTE: Although the lawyer advertising rules do not apply to some communications, the rule prohibiting conduct involving dishonesty, fraud, deceit, or misrepresentation applies to all communications of a lawyer. Rule 4-8.4(c). This site publishes public-court and public-health information only; it is not a law firm and does not offer legal advice or client intake."
   },
-  "fjlgWatch": {
-    "title": "Miami priority — Florida Justice Law Group docket watch",
-    "subtitle": "BBL · liposuction · medspa · cosmetic surgery (public filings only)",
-    "firm": "Florida Justice Law Group, PLLC",
-    "attorneys": ["Lavenia D. Santos (also known as Lavenia Dianne Mason)", "Anna Yarovich Lenchus"],
-    "intro": "When a Miami-area BBL, liposuction, or medspa malpractice complaint lists Florida Justice Law Group or these attorneys on the public docket, it appears here first. Initial open-source review (September 2025) did not yet surface an indexed Miami-Dade BBL complaint naming the firm; this block updates as clerk and federal indexes publish new entries.",
-    "cases": []
+  "miamiWatch": {
+    "title": "Miami BBL Injury Case Watch:",
+    "subtitle": "BBL · liposuction · medspa · cosmetic surgery (public filings only)"
+  },
+  "nav": {
+    "watch": "Miami watch"
   },
   "sections": {
     "miamiDockets": "Miami-Dade & South Florida — public dockets",
@@ -146,18 +145,17 @@
       ]
     },
     {
-      "id": "fjlg-quinn-ethicon-federal",
+      "id": "quinn-ethicon-federal",
       "priority": "statewide",
-      "fjlgRelated": true,
-      "title": "Joanne Quinn v. Ethicon / Johnson & Johnson (federal — FJLG counsel)",
+      "title": "Joanne Quinn v. Ethicon / Johnson & Johnson (federal product liability)",
       "court": "U.S. District Court, Middle District of Florida",
       "filed": "2016-09-22",
       "status": "Terminated 2017 (product liability MDL tag-along)",
       "procedure": "Pelvic mesh / health-care product liability (not BBL)",
       "plaintiffs": "Joanne Quinn",
       "defendants": ["Ethicon, Inc.", "Johnson & Johnson"],
-      "counselPlaintiff": "Anna Yarovich Lenchus — Florida Justice Law Group",
-      "summary": "Included because public PACER-style indexes list Florida Justice Law Group on a Florida federal injury matter. Not a BBL case; shown for counsel identification only.",
+      "counselPlaintiff": "Anna Yarovich Lenchus (per public docket index)",
+      "summary": "Federal Florida injury filing indexed in public court records. Not a BBL or cosmetic-surgery matter.",
       "documents": [
         {
           "label": "PacerMonitor — docket summary",

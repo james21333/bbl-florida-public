@@ -139,7 +139,7 @@ main {
   border-bottom: 2px solid var(--ink);
 }
 
-.fjlg-panel {
+.miami-watch-panel {
   background: linear-gradient(135deg, #ecfeff 0%, var(--accent-soft) 100%);
   border: 1px solid #cbd5e1;
   border-radius: var(--radius);
@@ -147,30 +147,17 @@ main {
   margin-bottom: 2rem;
 }
 
-.fjlg-panel h2 {
+.miami-watch-panel h2 {
   border: none;
   margin-bottom: 0.35rem;
   font-size: 1.35rem;
 }
 
-.fjlg-panel .subtitle {
+.miami-watch-panel .subtitle {
   color: var(--miami);
   font-weight: 600;
   font-size: 0.95rem;
   margin: 0 0 0.75rem;
-}
-
-.fjlg-panel .intro {
-  margin: 0 0 1rem;
-}
-
-.fjlg-empty {
-  background: #fff;
-  border: 1px dashed #94a3b8;
-  border-radius: 8px;
-  padding: 1rem;
-  font-size: 0.92rem;
-  color: var(--muted);
 }
 
 .case-grid {
@@ -226,11 +213,6 @@ main {
 .badge.miami {
   background: #cffafe;
   color: #0e7490;
-}
-
-.badge.fjlg {
-  background: var(--accent-soft);
-  color: #9a3412;
 }
 
 .case-body {

@@ -18,4 +18,4 @@ npx --yes serve es/public -p 8788
 
 Edit `en/public/data/content.json` and `es/public/data/content.json`, then push.
 
-Florida Justice Law Group priority cases: add objects to `fjlgWatch.cases` **and** the main `cases` array in both language files.
+Miami watch (above the fold): set `"featured": true` on Miami-area cases in the `cases` array, or list them under `miamiWatch.cases` in both language files.

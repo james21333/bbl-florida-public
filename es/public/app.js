@@ -27,7 +27,6 @@
     const badges = [];
     if (c.priority === "miami") badges.push(`<span class="badge miami">${esc(labels.miamiBadge)}</span>`);
     if (c.featured) badges.push(`<span class="badge">${esc(labels.featuredBadge)}</span>`);
-    if (c.fjlgRelated) badges.push(`<span class="badge fjlg">FJLG</span>`);
 
     const meta = [];
     if (c.court) meta.push(row(labels.court, c.court));
@@ -74,20 +73,25 @@
     return Array.isArray(p) ? p.join("; ") : p;
   }
 
+  function watchCases(data) {
+    const extra = data.miamiWatch && data.miamiWatch.cases;
+    if (extra && extra.length) return extra;
+    return data.cases.filter((c) => c.featured && c.priority === "miami");
+  }
+
   function render(data) {
     const L = data.meta.lang === "es" ? esLabels : enLabels;
     document.documentElement.lang = data.meta.lang;
 
-    const miamiCases = data.cases.filter((c) => c.priority === "miami" && !c.fjlgRelated);
-    const otherCases = data.cases.filter((c) => c.priority !== "miami" || c.fjlgRelated);
+    const featured = watchCases(data);
+    const featuredIds = new Set(featured.map((c) => c.id));
 
-    const fjlgCases = (data.fjlgWatch.cases || [])
-      .map((c) => renderCase(c, L))
-      .join("");
+    const miamiCases = data.cases.filter(
+      (c) => c.priority === "miami" && !featuredIds.has(c.id)
+    );
+    const otherCases = data.cases.filter((c) => c.priority !== "miami");
 
-    const fjlgBlock =
-      fjlgCases ||
-      `<div class="fjlg-empty">${esc(data.fjlgWatch.intro)}</div>`;
+    const watchHtml = featured.map((c) => renderCase(c, L)).join("");
 
     root.innerHTML = `
       <section class="hero" id="top">
@@ -96,12 +100,10 @@
         <p class="updated">${esc(L.lastUpdated)} ${esc(data.meta.updated)}</p>
       </section>
 
-      <section class="fjlg-panel" id="fjlg">
-        <h2>${esc(data.fjlgWatch.title)}</h2>
-        <p class="subtitle">${esc(data.fjlgWatch.subtitle)}</p>
-        <p><strong>${esc(data.fjlgWatch.firm)}</strong></p>
-        <p>${esc(L.attorneys)}: ${esc(data.fjlgWatch.attorneys.join(" · "))}</p>
-        ${fjlgBlock}
+      <section class="miami-watch-panel" id="miami-watch">
+        <h2>${esc(data.miamiWatch.title)}</h2>
+        <p class="subtitle">${esc(data.miamiWatch.subtitle)}</p>
+        <div class="case-grid">${watchHtml}</div>
       </section>
 
       <section class="section" id="miami">
@@ -154,11 +156,15 @@
         <h2>${esc(data.sections.howWeSource)}</h2>
         <ul>${data.sourcing.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>
       </section>`;
+
+    const navWatch = document.querySelector('nav a[href="#miami-watch"]');
+    if (navWatch && data.nav && data.nav.watch) {
+      navWatch.textContent = data.nav.watch;
+    }
   }
 
   const enLabels = {
     lastUpdated: "Last updated",
-    attorneys: "Attorneys monitored",
     miamiBadge: "Miami area",
     featuredBadge: "Lead case",
     court: "Court",
@@ -176,7 +182,6 @@
 
   const esLabels = {
     lastUpdated: "Última actualización",
-    attorneys: "Abogadas monitoreadas",
     miamiBadge: "Área Miami",
     featuredBadge: "Caso principal",
     court: "Tribunal",

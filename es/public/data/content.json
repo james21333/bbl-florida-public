@@ -10,13 +10,12 @@
     "body": "Las reglas de publicidad de abogados de Florida no se aplican a avisos para buscar testigos si el abogado ya representa a un cliente y no acepta clientes potenciales como resultado de publicar el aviso.",
     "footnote": "NOTA: Aunque las reglas de publicidad no aplican a algunas comunicaciones, la regla que prohíbe deshonestidad, fraude, engaño o tergiversación aplica a toda comunicación de un abogado. Regla 4-8.4(c). Este sitio publica información de tribunales y salud pública; no es un bufete ni ofrece asesoría legal ni captación de clientes."
   },
-  "fjlgWatch": {
-    "title": "Prioridad Miami — seguimiento de Florida Justice Law Group",
-    "subtitle": "BBL · liposucción · medspa · cirugía estética (solo expedientes públicos)",
-    "firm": "Florida Justice Law Group, PLLC",
-    "attorneys": ["Lavenia D. Santos (también conocida como Lavenia Dianne Mason)", "Anna Yarovich Lenchus"],
-    "intro": "Cuando una demanda pública de mala praxis por BBL, liposucción o medspa en el área de Miami cite a Florida Justice Law Group o a estas abogadas, aparecerá aquí primero. Una revisión inicial de fuentes abiertas (septiembre de 2025) no encontró aún una demanda indexada en Miami-Dade por BBL con el bufete; este bloque se actualiza conforme publiquen los registros del secretario y los índices federales.",
-    "cases": []
+  "miamiWatch": {
+    "title": "Seguimiento de casos por lesiones BBL en Miami:",
+    "subtitle": "BBL · liposucción · medspa · cirugía estética (solo expedientes públicos)"
+  },
+  "nav": {
+    "watch": "Casos Miami"
   },
   "sections": {
     "miamiDockets": "Miami-Dade y el Sur de Florida — expedientes públicos",
@@ -144,18 +143,17 @@
       ]
     },
     {
-      "id": "fjlg-quinn-ethicon-federal",
+      "id": "quinn-ethicon-federal",
       "priority": "statewide",
-      "fjlgRelated": true,
-      "title": "Joanne Quinn contra Ethicon / J&J (federal — abogada FJLG)",
+      "title": "Joanne Quinn contra Ethicon / J&J (responsabilidad federal por producto)",
       "court": "Tribunal de Distrito de EE.UU., distrito medio de Florida",
       "filed": "2016-09-22",
       "status": "Terminado 2017",
       "procedure": "Responsabilidad por producto (malla pélvica; no es BBL)",
       "plaintiffs": "Joanne Quinn",
       "defendants": ["Ethicon, Inc.", "Johnson & Johnson"],
-      "counselPlaintiff": "Anna Yarovich Lenchus — Florida Justice Law Group",
-      "summary": "Se incluye porque índices públicos listan a Florida Justice Law Group en un asunto federal de lesiones en Florida. No es un caso BBL; sirve para identificar a la counsel.",
+      "counselPlaintiff": "Anna Yarovich Lenchus (según índice público del expediente)",
+      "summary": "Demanda federal en Florida indexada en registros judiciales públicos. No es un caso BBL ni de cirugía estética.",
       "documents": [
         {
           "label": "PacerMonitor — resumen",
