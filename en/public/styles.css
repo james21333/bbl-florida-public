@@ -325,6 +325,31 @@ main {
   margin-top: 0.35rem;
 }
 
+.faq-list dt {
+  font-weight: 600;
+  margin-top: 1rem;
+  font-family: var(--font);
+}
+
+.faq-list dd {
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.seo-summary {
+  max-width: 72rem;
+  margin: 0 auto;
+  padding: 0.75rem 1.25rem 0;
+  font-size: 0.92rem;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.seo-summary a {
+  color: var(--miami);
+}
+
 .sourcing {
   font-size: 0.92rem;
   color: var(--muted);

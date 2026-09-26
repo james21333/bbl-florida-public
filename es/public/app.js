@@ -102,6 +102,16 @@
     return Array.isArray(p) ? p.join("; ") : p;
   }
 
+  function setMeta(name, content) {
+    let el = document.querySelector('meta[name="' + name + '"]');
+    if (!el) {
+      el = document.createElement("meta");
+      el.setAttribute("name", name);
+      document.head.appendChild(el);
+    }
+    el.setAttribute("content", content);
+  }
+
   function watchCases(data) {
     const mw = data.miamiWatch || {};
     const extra = mw.cases;
@@ -114,6 +124,12 @@
     if (data.meta && data.meta.lang) {
       document.documentElement.lang = data.meta.lang;
     }
+    if (data.seo && data.seo.title) {
+      document.title = data.seo.title;
+    }
+    if (data.seo && data.seo.description) {
+      setMeta("description", data.seo.description);
+    }
 
     const sections = data.sections || {};
     const miamiWatch = data.miamiWatch || { title: "", subtitle: "" };
@@ -121,6 +137,7 @@
     const newsBlurbs = data.newsBlurbs || [];
     const stats = data.stats || [];
     const sourcing = data.sourcing || [];
+    const faq = data.faq || [];
 
     const featured = watchCases(data);
     const featuredIds = new Set(featured.map((c) => c.id));
@@ -191,6 +208,18 @@
         </div>
       </section>
 
+      <section class="section" id="faq">
+        <h2>${esc(sections.faq || "FAQ")}</h2>
+        <dl class="faq-list">
+          ${faq
+            .map(
+              (item) =>
+                `<dt>${esc(item.q)}</dt><dd>${esc(item.a)}</dd>`
+            )
+            .join("")}
+        </dl>
+      </section>
+
       <section class="section sourcing" id="sources">
         <h2>${esc(sections.howWeSource)}</h2>
         <ul>${sourcing.map((s) => `<li>${esc(s)}</li>`).join("")}</ul>
@@ -217,6 +246,7 @@
     plaintiffCounsel: "Plaintiff counsel",
     defendantCounsel: "Defense counsel",
     sourceLink: "Source",
+    noFeaturedMiami: "No featured Miami cases listed yet.",
   };
 
   const esLabels = {
@@ -234,5 +264,6 @@
     plaintiffCounsel: "Abogados del demandante",
     defendantCounsel: "Defensa",
     sourceLink: "Fuente",
+    noFeaturedMiami: "Aún no hay casos destacados de Miami.",
   };
 })();

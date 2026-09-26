@@ -5,6 +5,13 @@
     "tagline": "Public dockets, news, and safety data on Brazilian butt lift and medspa liposuction cases in Florida — Miami first.",
     "updated": "2025-09-26"
   },
+  "seo": {
+    "title": "BBL Lawsuit & Injury Cases in Florida | Miami Medspa Malpractice Dockets",
+    "description": "Public index of BBL lawsuits, botched Brazilian butt lift injuries, medspa malpractice filings, and BBL death cases in Miami and Florida—court dockets, news, and safety statistics.",
+    "canonical": "https://bblinjuries.com/",
+    "alternateLang": "https://lesionesbbl.com/",
+    "summary": "BBL Injuries Florida tracks public Miami-Dade and statewide court filings, news reports, and peer-reviewed data on Brazilian butt lift (BBL) risks—including pulmonary fat embolism deaths, liposuction malpractice at medspas and office surgery centers, and wrongful-death lawsuits against doctors and clinics. This is an independent public-information archive, not a law firm."
+  },
   "barNotice": {
     "lead": "* Florida Bar witness-notice exception (Handbook on Lawyer Advertising and Solicitation, “Witnesses” / Standing Committee on Advertising — Solicitation of Witnesses):",
     "body": "Florida’s lawyer advertising rules do not apply to notices to find witnesses if the lawyer has an existing client and the lawyer does not accept prospective clients as a result of placing the notice seeking witnesses.",
@@ -22,9 +29,59 @@
     "statewide": "Elsewhere in Florida",
     "news": "BBL Injury News in South Florida",
     "stats": "Statistics & policy",
-    "howWeSource": "How we source information"
+    "howWeSource": "How we source information",
+    "faq": "Common questions about BBL lawsuits in Florida"
   },
+  "faq": [
+    {
+      "q": "How many BBL deaths have occurred in South Florida?",
+      "a": "A peer-reviewed study of South Florida counted 25 pulmonary-fat-embolism deaths linked to BBL procedures between January 2010 and April 2022, with six deaths in 2021 alone. See Pazmiño et al., Aesthetic Surgery Journal (PMC9896146) and Florida Senate staff analyses of HB 1561."
+    },
+    {
+      "q": "Can you sue for a botched Brazilian butt lift in Miami?",
+      "a": "Florida medical-malpractice and wrongful-death lawsuits over BBL injuries are filed in state circuit courts (for example Miami-Dade). Public complaints allege nerve damage, infection, organ puncture, and fatal pulmonary fat embolism. This site lists indexed cases and news—it does not provide legal advice."
+    },
+    {
+      "q": "What is the main medical risk that kills BBL patients?",
+      "a": "Pulmonary fat embolism (PFE) is the leading fatal complication when fat enters the bloodstream during gluteal fat grafting. Florida administrative rules restrict intramuscular gluteal injection (Rule 64B8-9.009)."
+    },
+    {
+      "q": "Are medspa BBL surgeries legal in Florida?",
+      "a": "Licensed physicians may perform cosmetic surgery in approved office settings, but facilities must meet Florida Department of Health rules. Lawsuits allege misleading credentials, high daily surgery volume, and failure to warn of BBL risks."
+    },
+    {
+      "q": "Where can I find public BBL lawsuit dockets in Florida?",
+      "a": "Use county clerk portals (Miami-Dade OCS for South Florida), federal PACER/CourtListener for U.S. district cases, and Board of Medicine orders. This site summarizes publicly reported filings with links to primary sources."
+    }
+  ],
   "cases": [
+    {
+      "id": "garces-aae-medspa-2025",
+      "priority": "miami",
+      "featured": true,
+      "title": "Daidys Peña Garcés — botched BBL brain injury (A&E Med Spa)",
+      "court": "Miami-Dade County Circuit Court (per news reporting)",
+      "filed": "2025-06 (per Daily Mail / WSVN reporting)",
+      "status": "Pending (malpractice lawsuit reported 2025)",
+      "procedure": "Brazilian butt lift (BBL) at medical spa",
+      "incidentDate": "2023-05-15",
+      "location": "A&E Med Spa, Miami, FL",
+      "plaintiffs": "Jorge Fernandez (husband) on behalf of Daidys Peña Garcés",
+      "defendants": ["A&E Med Spa", "Fermin Esteban Morales, M.D."],
+      "summary": "News and court filings summarized in 2025 reporting allege a May 2023 BBL caused pulmonary embolism and catastrophic brain injury. Complaint themes include misrepresentation of surgeon credentials (general surgeon vs. board-certified plastic surgeon) and Spanish-language consent concerns.",
+      "documents": [
+        {
+          "label": "WSVN 7News — investigation",
+          "url": "https://wsvn.com/news/investigations/husband-suing-medical-spa-after-botched-bbl-leaves-wife-fighting-for-her-life/",
+          "type": "news"
+        },
+        {
+          "label": "Telemundo 51 — demanda (Spanish)",
+          "url": "https://www.telemundo51.com/noticias/local/esposo-demanda-por-mala-practica-a-medico-de-clinica-estetica-que-dejo-a-su-esposa-con-danos-cerebrales/2690592/",
+          "type": "news"
+        }
+      ]
+    },
     {
       "id": "russell-seduction-2024",
       "priority": "miami",

@@ -5,6 +5,13 @@
     "tagline": "Expedientes públicos, noticias y datos de seguridad sobre cirugías BBL y liposucción en medspas de Florida — Miami primero.",
     "updated": "2025-09-26"
   },
+  "seo": {
+    "title": "Demandas BBL y lesiones en Florida | Mala praxis medspa Miami",
+    "description": "Índice público de demandas por BBL, lesiones por levantamiento de glúteos, mala praxis en medspas y muertes por cirugía estética en Miami y Florida—expedientes, noticias y estadísticas.",
+    "canonical": "https://lesionesbbl.com/",
+    "alternateLang": "https://bblinjuries.com/",
+    "summary": "Lesiones BBL Florida reúne expedientes judiciales públicos, reportajes y datos sobre riesgos del levantamiento brasileño de glúteos (BBL)—embolia grasa pulmonar, mala praxis en medspas, liposucción y demandas por muerte en Miami-Dade y todo Florida. Archivo independiente de información pública; no es un bufete de abogados."
+  },
   "barNotice": {
     "lead": "* Excepción del Colegio de Abogados de Florida para avisos de testigos (Manual de Publicidad y Solicitud de Abogados, «Witnesses» / Comité Permanente de Publicidad — Solicitation of Witnesses):",
     "body": "Las reglas de publicidad de abogados de Florida no se aplican a avisos para buscar testigos si el abogado ya representa a un cliente y no acepta clientes potenciales como resultado de publicar el aviso.",
@@ -22,9 +29,59 @@
     "statewide": "Resto de Florida",
     "news": "Noticias sobre lesiones BBL en el sur de Florida",
     "stats": "Estadísticas y política pública",
-    "howWeSource": "Cómo obtenemos la información"
+    "howWeSource": "Cómo obtenemos la información",
+    "faq": "Preguntas frecuentes sobre demandas BBL en Florida"
   },
+  "faq": [
+    {
+      "q": "¿Cuántas muertes por BBL hay en el sur de Florida?",
+      "a": "Un estudio revisado por pares contó 25 muertes por embolia grasa pulmonar vinculadas al BBL entre enero de 2010 y abril de 2022 en el sur de Florida, con seis muertes solo en 2021. Véase Pazmiño et al. (PMC9896146) y análisis del Senado de Florida sobre HB 1561."
+    },
+    {
+      "q": "¿Se puede demandar por un BBL mal hecho en Miami?",
+      "a": "En Florida las demandas por mala praxis médica y muerte wrongful por lesiones de BBL se presentan en tribunales estatales (por ejemplo Miami-Dade). Este sitio enumera casos indexados y noticias; no ofrece asesoría legal."
+    },
+    {
+      "q": "¿Cuál es el riesgo principal que mata a pacientes de BBL?",
+      "a": "La embolia grasa pulmonar ocurre cuando grasa entra al torrente sanguíneo durante el injerto glúteo. Florida restringe la inyección intramuscular (Regla 64B8-9.009)."
+    },
+    {
+      "q": "¿Es legal operar BBL en un medspa en Florida?",
+      "a": "Médicos licenciados pueden operar en consultorios autorizados, sujetos a reglas del Departamento de Salud. Las demandas alegan credenciales engañosas, alto volumen diario y falta de advertencia de riesgos."
+    },
+    {
+      "q": "¿Dónde encuentro expedientes públicos de demandas BBL?",
+      "a": "Portales del secretario del condado (OCS Miami-Dade), PACER/CourtListener en lo federal, y órdenes de la Junta de Medicina. Este sitio resume filtraciones públicas con enlaces a fuentes primarias."
+    }
+  ],
   "cases": [
+    {
+      "id": "garces-aae-medspa-2025",
+      "priority": "miami",
+      "featured": true,
+      "title": "Daidys Peña Garcés — lesión cerebral tras BBL (A&E Med Spa)",
+      "court": "Tribunal de Circuito, Miami-Dade (según prensa)",
+      "filed": "2025-06 (según reportajes)",
+      "status": "Pendiente (demanda reportada 2025)",
+      "procedure": "BBL en medspa",
+      "incidentDate": "2023-05-15",
+      "location": "A&E Med Spa, Miami, FL",
+      "plaintiffs": "Jorge Fernandez en representación de Daidys Peña Garcés",
+      "defendants": ["A&E Med Spa", "Fermin Esteban Morales, M.D."],
+      "summary": "Reportajes de 2025 describen un BBL en mayo de 2023 que causó embolia pulmonar y daño cerebral severo. Temas de la demanda incluyen credenciales del cirujano y formularios de consentimiento en inglés para paciente hispanohablante.",
+      "documents": [
+        {
+          "label": "WSVN 7News — investigación",
+          "url": "https://wsvn.com/news/investigations/husband-suing-medical-spa-after-botched-bbl-leaves-wife-fighting-for-her-life/",
+          "type": "news"
+        },
+        {
+          "label": "Telemundo 51",
+          "url": "https://www.telemundo51.com/noticias/local/esposo-demanda-por-mala-practica-a-medico-de-clinica-estetica-que-dejo-a-su-esposa-con-danos-cerebrales/2690592/",
+          "type": "news"
+        }
+      ]
+    },
     {
       "id": "russell-seduction-2024",
       "priority": "miami",
